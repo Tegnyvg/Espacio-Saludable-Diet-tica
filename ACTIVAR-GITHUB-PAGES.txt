@@ -1,0 +1,29 @@
+🌐 ACTIVAR GITHUB PAGES
+========================
+
+✅ ARCHIVOS SUBIDOS CORRECTAMENTE
+
+AHORA VAS A:
+1. https://github.com/Tegnyvg/Espacio-Saludable-Diet-tica
+2. Clic en "Settings" (arriba a la derecha)
+3. Scroll hacia abajo hasta "Pages" (en el menú lateral)
+4. En "Source" elegí: "Deploy from a branch"
+5. En "Branch" elegí: "main"
+6. En "Folder" dejá: "/ (root)"
+7. Clic en "Save"
+
+LISTO! Tu página estará en:
+🔗 https://Tegnyvg.github.io/Espacio-Saludable-Diet-tica
+
+========================
+
+SOBRE EL NOMBRE DEL REPOSITORIO:
+El nombre actual tiene caracteres especiales (-tica por é)
+Para cambiarlo:
+1. Settings del repositorio
+2. Scroll hasta "Repository name"
+3. Cambiar a: "Espacio-Saludable-Dietetica" (sin acentos)
+4. Clic "Rename"
+
+Esto hará que la URL sea más limpia:
+🔗 https://Tegnyvg.github.io/Espacio-Saludable-Dietetica
