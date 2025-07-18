@@ -1,4 +1,4 @@
-# 🥑 Espacio Saludable - Guía de 7 Hábitos
+# 🥑 Espacio Saludable Dietética - Guía de 7 Hábitos
 
 ## Descripción
 Guía interactiva con 7 hábitos para sentirse mejor sin dieta, creada para **Espacio Saludable Dietética**.
@@ -21,8 +21,8 @@ Guía interactiva con 7 hábitos para sentirse mejor sin dieta, creada para **Es
 - **Instagram:** @espaciosaludableroca
 
 ## 🚀 Ver en vivo
-Una vez configurado GitHub Pages, estará disponible en:
-`https://tuusuario.github.io/espacio-saludable-guia`
+Tu página estará disponible en:
+`https://Tegnyvg.github.io/Espacio-Saludable-Diet-tica`
 
 ---
 *Desarrollado con ❤️ para promover hábitos saludables*

@@ -1,0 +1,30 @@
+🔗 COMANDOS PARA CONECTAR CON GITHUB
+=======================================
+
+Una vez que hayas creado el repositorio en GitHub.com, ejecutá estos comandos:
+
+1. REEMPLAZÁ "TU-USUARIO" por tu usuario de GitHub:
+
+git branch -M main
+git remote add origin https://github.com/TU-USUARIO/espacio-saludable-guia.git
+git push -u origin main
+
+2. ACTIVAR GITHUB PAGES:
+- Vas a Settings del repositorio
+- Sección "Pages"
+- Source: "Deploy from a branch"  
+- Branch: "main"
+- Folder: "/ (root)"
+- Save
+
+3. TU PÁGINA ESTARÁ EN:
+https://TU-USUARIO.github.io/espacio-saludable-guia
+
+=======================================
+
+ARCHIVOS LISTOS:
+✅ index.html (tu guía de hábitos)
+✅ README.md (descripción del proyecto)
+✅ Git inicializado y commit creado
+
+¿Ya creaste el repositorio en GitHub.com?
