@@ -1,2 +1,2 @@
-# Espacio-Saludable-Diet-tica
+# Espacio-Saludable-Dietetica
 espacio-saludable-guia
