@@ -1,0 +1,46 @@
+🔧 SOLUCIÓN ERROR 404 - GITHUB PAGES
+=====================================
+
+PASOS PARA RESOLVER:
+
+1. VAS A TU REPOSITORIO:
+   https://github.com/Tegnyvg/Espacio-Saludable-Diet-tica
+
+2. CLIC EN "SETTINGS" (TAB SUPERIOR)
+
+3. SCROLL HACIA ABAJO → "PAGES" (MENÚ LATERAL IZQUIERDO)
+
+4. VERIFICÁ LA CONFIGURACIÓN:
+   ✅ Source: "Deploy from a branch"
+   ✅ Branch: "main"
+   ✅ Folder: "/ (root)"
+   ✅ Clic "Save"
+
+5. ESPERÁ 2-10 MINUTOS (primera vez tarda más)
+
+6. TU URL DEBERÍA SER:
+   https://Tegnyvg.github.io/Espacio-Saludable-Diet-tica
+
+=====================================
+
+SI SIGUE SIN FUNCIONAR:
+
+OPCIÓN A - VERIFICAR ARCHIVOS:
+- El archivo index.html debe estar en la raíz
+- ✅ YA ESTÁ SUBIDO CORRECTAMENTE
+
+OPCIÓN B - RENOMBRAR REPOSITORIO:
+- El guión en "Diet-tica" puede causar problemas
+- Settings → Repository name → "Espacio-Saludable-Dietetica"
+
+OPCIÓN C - NETLIFY (BACKUP):
+- Vas a netlify.com
+- Arrastrás tu index.html
+- ¡Listo en 30 segundos!
+
+=====================================
+
+ESTADO ACTUAL:
+✅ Archivos subidos correctamente
+✅ index.html en posición correcta
+⏳ Esperando activación de GitHub Pages

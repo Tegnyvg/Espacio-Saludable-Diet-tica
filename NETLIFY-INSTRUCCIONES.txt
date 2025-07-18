@@ -1,0 +1,38 @@
+🌐 NETLIFY DROP - INSTRUCCIONES PASO A PASO
+============================================
+
+PASOS SÚPER FÁCILES:
+
+1. ABRÍ TU NAVEGADOR
+
+2. VAS A: https://app.netlify.com/drop
+
+3. DESDE EL EXPLORADOR DE ARCHIVOS:
+   - Navegá a: C:\Users\veron\Documents\Proyectos\espacio-saludable-guia
+   - Arrastrá el archivo "index.html" a la página de Netlify
+
+4. ¡LISTO! En 30 segundos tendrás una URL como:
+   https://dreamy-unicorn-abc123.netlify.app
+
+============================================
+
+VENTAJAS DE NETLIFY:
+✅ Instantáneo (30 segundos)
+✅ HTTPS automático
+✅ No necesita cuenta
+✅ URL limpia y profesional
+✅ Actualizaciones arrastrando nuevo archivo
+
+============================================
+
+ALTERNATIVA SI QUERÉS UNA URL PERSONALIZADA:
+1. Creá cuenta gratis en netlify.com
+2. Podés cambiar la URL a algo como:
+   https://espacio-saludable.netlify.app
+
+============================================
+
+TU ARCHIVO ESTÁ EN:
+📁 C:\Users\veron\Documents\Proyectos\espacio-saludable-guia\index.html
+
+¡Arrastralo a https://app.netlify.com/drop y listo!
