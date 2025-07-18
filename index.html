@@ -56,11 +56,25 @@
             overflow: hidden;
         }
         
-        .logo img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            padding: 10px;
+        .logo-content {
+            text-align: center;
+            line-height: 1.1;
+        }
+        
+        .logo-emoji {
+            font-size: 42px;
+            margin-bottom: 8px;
+            display: block;
+        }
+        
+        .logo-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 16px;
+            font-weight: 700;
+            color: #0a7b45;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            line-height: 1.2;
         }
         
         .brand-name {
@@ -338,9 +352,9 @@
         <header class="header">
             <div class="logo-section">
                 <div class="logo">
-                    <div style="font-size: 48px; color: #0a7b45; font-weight: bold; text-align: center; line-height: 1.1;">
-                        🥑<br>
-                        <span style="font-size: 18px; font-family: 'Playfair Display', serif; color: #2d3748;">ESPACIO<br>SALUDABLE</span>
+                    <div class="logo-content">
+                        <span class="logo-emoji">🥑</span>
+                        <div class="logo-text">Espacio<br>Saludable</div>
                     </div>
                 </div>
             </div>
