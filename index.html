@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Hábitos para Sentirte Mejor - Espacio Saludable</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            color: #2d3748;
+            background: #f5f5f5;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 1080px;
+            margin: 0 auto;
+            background: white;
+        }
+        
+        /* HEADER */
+        .header {
+            background: linear-gradient(135deg, #0a7b45 0%, #98cbb0 100%);
+            color: white;
+            padding: 80px 40px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .logo-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .logo {
+            width: 180px;
+            height: 120px;
+            background: white;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            padding: 10px;
+        }
+        
+        .brand-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            font-weight: 600;
+            color: #f5f5f5;
+        }
+        
+        .main-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 64px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+            line-height: 1.1;
+        }
+        
+        .subtitle {
+            font-size: 36px;
+            font-weight: 300;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+        
+        .intro-text {
+            font-size: 24px;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            opacity: 0.95;
+        }
+        
+        /* HÁBITOS GRID */
+        .habits-section {
+            padding: 80px 40px;
+            background: #f5f5f5;
+        }
+        
+        .habits-intro {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .habits-intro h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            color: #0a7b45;
+            margin-bottom: 20px;
+        }
+        
+        .habits-intro p {
+            font-size: 20px;
+            color: #4a5568;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .habits-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .habit-card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-left: 6px solid;
+        }
+        
+        .habit-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+        
+        .habit-card.habit-1 { border-left-color: #0a7b45; }
+        .habit-card.habit-2 { border-left-color: #d8a72a; }
+        .habit-card.habit-3 { border-left-color: #7fb069; }
+        .habit-card.habit-4 { border-left-color: #8860d0; }
+        .habit-card.habit-5 { border-left-color: #e76f51; }
+        .habit-card.habit-6 { border-left-color: #a8dadc; }
+        .habit-card.habit-7 { border-left-color: #ffd166; }
+        
+        .habit-number {
+            font-size: 24px;
+            font-weight: 800;
+            color: #98cbb0;
+            margin-bottom: 15px;
+        }
+        
+        .habit-emoji {
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+        
+        .habit-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 15px;
+        }
+        
+        .habit-description {
+            font-size: 16px;
+            color: #4a5568;
+            line-height: 1.6;
+        }
+        
+        /* MENSAJE CENTRAL */
+        .central-message {
+            background: linear-gradient(135deg, #0a7b45 0%, #98cbb0 100%);
+            color: white;
+            padding: 80px 40px;
+            text-align: center;
+        }
+        
+        .central-message .sparkle {
+            font-size: 64px;
+            margin-bottom: 30px;
+        }
+        
+        .central-message h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+            line-height: 1.2;
+        }
+        
+        .central-message .highlight {
+            font-size: 56px;
+            font-weight: 800;
+            color: #ffd166;
+            margin: 30px 0;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+        }
+        
+        .slogan {
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            font-style: italic;
+            margin-top: 40px;
+            opacity: 0.9;
+        }
+        
+        /* FOOTER */
+        .footer {
+            background: #2d3748;
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        .footer-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .footer h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            color: #98cbb0;
+            margin-bottom: 30px;
+        }
+        
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .contact-item {
+            background: rgba(255,255,255,0.05);
+            padding: 30px;
+            border-radius: 15px;
+            border-left: 4px solid #98cbb0;
+        }
+        
+        .contact-item h4 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #98cbb0;
+        }
+        
+        .contact-item p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        
+        .contact-item a {
+            color: #d8a72a;
+            text-decoration: none;
+        }
+        
+        .cta-section {
+            background: rgba(152,203,176,0.1);
+            padding: 40px;
+            border-radius: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .cta-section h4 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #98cbb0;
+        }
+        
+        .cta-section p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+        
+        .social-handles {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .social-handle {
+            font-size: 20px;
+            font-weight: 600;
+            color: #d8a72a;
+        }
+        
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .habits-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .main-title {
+                font-size: 48px;
+            }
+            
+            .subtitle {
+                font-size: 28px;
+            }
+            
+            .intro-text {
+                font-size: 20px;
+            }
+            
+            .habit-title {
+                font-size: 24px;
+            }
+            
+            .central-message h2 {
+                font-size: 36px;
+            }
+            
+            .central-message .highlight {
+                font-size: 42px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="logo-section">
+                <div class="logo">
+                    <img src="https://via.placeholder.com/180x120/0a7b45/white?text=🥑+ESPACIO+SALUDABLE" alt="Espacio Saludable Dietética" onerror="this.style.display='none'; this.parentNode.innerHTML='🥑 ESPACIO SALUDABLE';">
+                </div>
+            </div>
+            <h1 class="main-title">7 HÁBITOS PARA SENTIRTE MEJOR</h1>
+            <p class="subtitle">SIN DIETA</p>
+            <p class="intro-text">
+                Cuidarte no debería ser una carga.<br>
+                Esta guía no es un plan milagroso.<br>
+                Es una invitación a reconectar con vos mismx desde la conciencia, sin extremos.
+            </p>
+        </header>
+
+        <!-- HÁBITOS -->
+        <section class="habits-section">
+            <div class="habits-intro">
+                <h2>Los 7 Hábitos</h2>
+                <p>Pequeños cambios que transforman tu relación con el bienestar</p>
+            </div>
+            
+            <div class="habits-grid">
+                <div class="habit-card habit-1">
+                    <div class="habit-number">01</div>
+                    <div class="habit-emoji">🍽️</div>
+                    <h3 class="habit-title">Comé sin culpa</h3>
+                    <p class="habit-description">
+                        No hay alimentos prohibidos.<br>
+                        Hay contextos y decisiones informadas.
+                    </p>
+                </div>
+
+                <div class="habit-card habit-2">
+                    <div class="habit-number">02</div>
+                    <div class="habit-emoji">👂</div>
+                    <h3 class="habit-title">Escuchá a tu cuerpo</h3>
+                    <p class="habit-description">
+                        Hambre real, emocional, saciedad…<br>
+                        Todo tiene su mensaje. Aprendé a registrarlo.
+                    </p>
+                </div>
+
+                <div class="habit-card habit-3">
+                    <div class="habit-number">03</div>
+                    <div class="habit-emoji">🥦</div>
+                    <h3 class="habit-title">Elegí alimentos reales</h3>
+                    <p class="habit-description">
+                        Que lo que comas tenga ingredientes simples, no una lista interminable de químicos.
+                    </p>
+                </div>
+
+                <div class="habit-card habit-4">
+                    <div class="habit-number">04</div>
+                    <div class="habit-emoji">😴</div>
+                    <h3 class="habit-title">Dormí bien</h3>
+                    <p class="habit-description">
+                        Dormir mal afecta tu digestión, tu ansiedad, tus elecciones.<br>
+                        Dormir bien es el mejor detox.
+                    </p>
+                </div>
+
+                <div class="habit-card habit-5">
+                    <div class="habit-number">05</div>
+                    <div class="habit-emoji">🚶</div>
+                    <h3 class="habit-title">Movete con disfrute</h3>
+                    <p class="habit-description">
+                        Hacelo por placer, no por castigo.<br>
+                        Moverte también es un acto de autocuidado.
+                    </p>
+                </div>
+
+                <div class="habit-card habit-6">
+                    <div class="habit-number">06</div>
+                    <div class="habit-emoji">🔍</div>
+                    <h3 class="habit-title">Leé etiquetas con criterio</h3>
+                    <p class="habit-description">
+                        "Light" no siempre es saludable.<br>
+                        "Natural" no siempre es real.<br>
+                        La información te da libertad.
+                    </p>
+                </div>
+
+                <div class="habit-card habit-7">
+                    <div class="habit-number">07</div>
+                    <div class="habit-emoji">🍫</div>
+                    <h3 class="habit-title">Permitite disfrutar</h3>
+                    <p class="habit-description">
+                        El chocolate, el pan, un vino…<br>
+                        También son parte de tu bienestar si hay equilibrio.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- MENSAJE CENTRAL -->
+        <section class="central-message">
+            <div class="sparkle">✨</div>
+            <h2>Estos hábitos no buscan controlarte.<br>Buscan liberarte.</h2>
+            <p class="highlight">ES UN ESTILO DE VIDA</p>
+            <p class="slogan">Sos la energía que consumís.<br>Nutrite con conciencia.</p>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer-content">
+                <h3>Conectá con Espacio Saludable</h3>
+                
+                <div class="cta-section">
+                    <h4>🌿 Sumate a nuestra comunidad</h4>
+                    <p>Seguime para más tips saludables y descargá contenido exclusivo</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <h4>📍 Ubicación</h4>
+                        <p>Alsina 1741<br>Roca, Río Negro</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h4>📲 Contacto</h4>
+                        <p><a href="tel:+5492984521812">+54 9 298 452 1812</a></p>
+                    </div>
+                </div>
+
+                <div class="social-handles">
+                    <div class="social-handle">@espaciosaludableroca</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
