@@ -293,6 +293,51 @@
             font-weight: 600;
             color: #d8a72a;
         }
+
+        .footer-logo-section {
+            margin-top: 40px;
+            padding-top: 40px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            text-align: center;
+        }
+
+        .footer-logo {
+            width: 120px;
+            height: 80px;
+            background: white;
+            border-radius: 10px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        .footer-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            padding: 8px;
+        }
+
+        .linktree-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #98cbb0 0%, #0a7b45 100%);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(152,203,176,0.3);
+        }
+
+        .linktree-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(152,203,176,0.4);
+            background: linear-gradient(135deg, #0a7b45 0%, #98cbb0 100%);
+        }
         
         /* RESPONSIVE */
         @media (max-width: 768px) {
@@ -462,6 +507,16 @@
 
                 <div class="social-handles">
                     <div class="social-handle">@espaciosaludableroca</div>
+                </div>
+
+                <!-- LOGO Y LINKTREE FINAL -->
+                <div class="footer-logo-section">
+                    <div class="footer-logo">
+                        <img src="logo-espacio-saludable.jpg" alt="Espacio Saludable Dietética" />
+                    </div>
+                    <a href="https://linktr.ee/espaciosaludable" target="_blank" rel="noopener" class="linktree-button">
+                        🔗 Todos nuestros enlaces
+                    </a>
                 </div>
             </div>
         </footer>
